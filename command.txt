@@ -1,0 +1,10 @@
+Command :
+
+gcc -c main_array.c
+
+nasm -f elf64 -o sum_array.o sum_array.asm
+
+
+gcc -o main_array main_array.o sum_array.o
+
+./main_array
